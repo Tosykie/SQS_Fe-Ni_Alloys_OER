@@ -1,0 +1,16 @@
+======================================================================================
+
+			Resource Usage on 2021-12-15 21:47:12.664449:
+
+	JobId: 7073660.wlm01  
+	Project: personal-nong0003 
+	Exit Status: 0
+	NCPUs Requested: 1				NCPUs Used: 1
+							CPU Time Used: 01:39:49
+	Memory Requested: 100663296kb 				Memory Used: 15144kb
+							Vmem Used: 177696kb
+	Walltime requested: 24:00:00 			Walltime Used: 02:18:46
+	
+	Execution Nodes Used: (std1603:ncpus=1)
+	
+ ======================================================================================

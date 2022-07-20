@@ -1,0 +1,16 @@
+Generating supercells...
+Writing supercells...
+Initializing random supercells...
+Initialization done.
+Objective_function= -3.422435
+Correlations_mismatch= 	0.000000	0.000000	0.015432	-0.067901	0.000000
+Objective_function= -3.423978
+Correlations_mismatch= 	0.000000	0.000000	-0.055556	0.024691	0.000000
+Objective_function= -3.440953
+Correlations_mismatch= 	0.000000	0.000000	-0.021605	0.024691	0.000000
+Objective_function= -3.990741
+Correlations_mismatch= 	0.000000	0.000000	0.000000	0.000000	0.046296
+Objective_function= -3.998148
+Correlations_mismatch= 	0.000000	0.000000	0.000000	0.000000	-0.009259
+Objective_function= Perfect_match
+Correlations_mismatch= 	0.000000	0.000000	0.000000	0.000000	0.000000
