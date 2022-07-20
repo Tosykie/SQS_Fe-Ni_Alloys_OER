@@ -1,0 +1,17 @@
+=>> PBS: job killed: walltime 43240 exceeded limit 43200
+======================================================================================
+
+			Resource Usage on 2021-12-17 11:12:56.449459:
+
+	JobId: 7076488.wlm01  
+	Project: personal-nong0003 
+	Exit Status: 271
+	NCPUs Requested: 1				NCPUs Used: 1
+							CPU Time Used: 11:59:59
+	Memory Requested: 100663296kb 				Memory Used: 15144kb
+							Vmem Used: 177696kb
+	Walltime requested: 12:00:00 			Walltime Used: 12:00:40
+	
+	Execution Nodes Used: (std1644:ncpus=1)
+	
+ ======================================================================================
