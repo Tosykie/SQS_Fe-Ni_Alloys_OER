@@ -1,0 +1,8 @@
+# Atom ID       d-Band-Center (UP)       d-Band-Center (DOWN)       d-Band-Center (Average)   (in eV)
+    Fe1:            -1.6165                   0.5195                    -0.5589
+  Total:            -1.6165                   0.5195                    -0.5589
+
+
+Notice:
+The energy window of integration is [-10.00 5.00].
+The calculated d-band-center presented here are referenced to Fermi level, i.e., E_F=0 eV.
