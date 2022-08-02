@@ -1,0 +1,9 @@
+COHPstartEnergy  -20
+COHPendEnergy	  6
+usebasisset pbeVaspFit2015
+#basisfunctions Fe 3d 4s #4p
+basisfunctions Ni 3d 4s #4p
+basisfunctions O 2s 2p
+basisfunctions H 1s
+
+cohpbetween atom 6 and atom 69 #orbitalwise
