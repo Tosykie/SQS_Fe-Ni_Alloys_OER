@@ -1,0 +1,35 @@
+  SYSTEM = SQS-NiFe
+  ISTART = 0; ICHARG = 1
+  ENCUT = 520 
+  ISIF = 2 
+  ISMEAR = 0 ; SIGMA = 0.2
+  ALGO = Fast
+  NPAR = 3
+#########
+  EDIFF = 1E-6
+  PREC = Accurate
+  EDIFFG = -0.02
+#########
+  #ISPIN = 2
+  #MAGMOM = 
+  LCHARG = .FALSE.
+  LWAVE = .FALSE.
+  LORBIT = 10 
+  LREAL = Auto
+  #LELF = .FALSE.
+  LAECHG = .FALSE.
+#########
+  SYMPREC = 1E-4
+  ISYM = 0
+  NELM = 200
+#########Frequency Calculation
+  NSW = 1
+  POTIM = 0.015
+  IBRION = 5
+  NFREE = 2
+#########VDW=DFT-D3 zero damping DFT-D3 method of Grimme
+  LVDW = .TRUE.
+  IVDW = 11
+#########DIPOLE-correction
+  #LDIPOL = .TRUE.
+  #IDIPOL = 3

@@ -1,0 +1,35 @@
+  SYSTEM = SQS-NiFe
+  ISTART = 1; ICHARG = 1
+  ENCUT = 520 
+  ISIF = 2 
+  ISMEAR = 1 ; SIGMA = 0.2
+  ALGO = Fast
+  NPAR = 3
+#########
+  EDIFF = 1E-5
+  PREC = Accurate
+  EDIFFG = -0.05
+#########
+  ISPIN = 2
+  #MAGMOM = 
+  LCHARG = .TRUE.
+  LWAVE = .TRUE.
+  LORBIT = 10 
+  LREAL = Auto
+#########
+  SYMPREC = 1E-4
+  ISYM = 0
+  NELM = 200
+#########
+  NSW = 99
+  POTIM = 0.5
+  IBRION = 2
+#########VDW=DFT-D3
+  LVDW = .TRUE.
+  IVDW = 11
+#########K-mesh
+  KGAMMA = .TRUE.
+  KSPACING = 0.3
+#########DIPOLE-correction
+  LDIPOL = .TRUE.
+  IDIPOL = 3
