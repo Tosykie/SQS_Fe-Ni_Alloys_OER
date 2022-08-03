@@ -16,7 +16,7 @@ Codes used,
 
 - `./SQS` includes 
 
-  1. using `mcsqs` to generate special quasi-random structures (SQS) for Fe<sub>x</sub>Ni<sub>1-x</sub> disordered alloys (x = 0.25, 0.50 and 0.75) (`./SQS/mcsqs`);
+  1. using `mcsqs` to generate special quasi-random structures (SQS) for Fe$_x$Ni$_{1-x}$ disordered alloys (x = 0.25, 0.50 and 0.75) (`./SQS/mcsqs`);
 
   1. using `VASP` to relax structures and get total energies of bulks (`./SQS/bulk`) and slabs (`./SQS/surface`), for bulk  there are four groups of SQS with different number of atoms (*n* = 16, 32, 48, 108) and cell shapes.
 
