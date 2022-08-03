@@ -1,5 +1,6 @@
 '''
-Zhihao Zeng
+Zhihao Zeng @SYSU
+E-mail: zengzhh9@mail2.sysu.edu.cn
 Dec. 24 2021
 '''
 import os
@@ -350,7 +351,7 @@ class DensityOfStates(ReadVasprun):
                     orbital_type += '\t                 \t                 \t{}\n'.format(centers_dict['1'])
                 else:
                     average = (centers_dict['1'] + centers_dict['-1']) / 2
-                    # TODO: 总的态密度是不是等于两个自旋的态相加？
+                    # TODO: total DOS ?= sum of all partial DOS
                     orbital_type += '\t\t{}\t\t{}\t\t{}\n'.format(centers_dict['1'], centers_dict['-1'], average)
                 file.write(orbital_type)
 
@@ -381,9 +382,9 @@ if __name__ == '__main__':
     path = r"."
     dos = DensityOfStates(path)
 #    dosdata = dos.generate_dos_dict(sites_spdf={'6': ['d'], '22':['d'], '65':['p']})
-    dosdata = dos.generate_dos_dict(elements_spdf={'O':'p','Ni':'d','Fe':'d'})
-#    dos.output_band_centers(dosdata, file_name='band_centers.dat')  # 计算每一条态密度的中心
+#    dosdata = dos.generate_dos_dict(elements_spdf={'O':'p','Ni':'d','Fe':'d'})
+#    dos.output_band_centers(dosdata, file_name='band_centers.dat')  # band centers
 #    dosdata = dos.generate_dos_dict(elements_spdf={'Ni':'d'})
 #    surfaceFe = dos.SumDOS(list(range(37,45)))
 #    dosdata.add_dos_dict(surfaceFe)
-    dos.dos_poltter(dosdata, fig='dos', font='Arial', xlim=[-8, 6])  # 输出态密度图像
+#    dos.dos_poltter(dosdata, fig='dos.png', font='Arial', xlim=[-8, 6])  # ouput image
