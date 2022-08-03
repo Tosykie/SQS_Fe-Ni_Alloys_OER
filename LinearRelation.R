@@ -3,7 +3,7 @@ library(xlsx)
 library(ggplot2)
 library(ggrepel)
 
-data.activity <- read.xlsx(file = "C:/Users/DELL/OneDrive\ -\ Nanyang\ Technological\ University/Works/WangYong/Manuscript/FeNi_Alloys_OER.xlsx",
+data.activity <- read.xlsx(file = "./FeNi_Alloys_OER.xlsx",
           sheetIndex = 4, header = TRUE, rowIndex = c(1:6))
 
 Figure6 <- ggplot(data = na.omit(data.activity),
@@ -57,7 +57,7 @@ ggsave(filename = "./Fig6f.png", plot = volcano, device = "png",
        dpi = 900, width = 5.5, height = 5, units = "in")
 
 ##-----------------------d-band center----------------------------
-data.dband <- read.xlsx(file = "C:/Users/DELL/OneDrive\ -\ Nanyang\ Technological\ University/Works/WangYong/Manuscript/FeNi_Alloys_OER.xlsx",
+data.dband <- read.xlsx(file = "./FeNi_Alloys_OER.xlsx",
                            sheetIndex = 7, header = TRUE, rowIndex = c(1:7))
 dband.bulk <- ggplot(data = data.dband[-5,], mapping = aes(x = x.Fe, y = ed.dn.bulk))+
   geom_point(shape=22, size=3, fill=c("#FF80FF","blue", "#3BC371","#F14040","black"))+
@@ -116,7 +116,7 @@ ggsave(filename = "./FigSI_linear_dband_surf.png", plot = dband.surf, device = "
 
 
 ##-----------------------1/16 ML O adsorption free energy-----------------------
-data.dGO <- read.xlsx(file = "C:/Users/DELL/OneDrive\ -\ Nanyang\ Technological\ University/Works/WangYong/Manuscript/FeNi_Alloys_OER.xlsx",
+data.dGO <- read.xlsx(file = "./FeNi_Alloys_OER.xlsx",
                            sheetIndex = 6, header = TRUE, colIndex = c(2,3,4,7))
 data.dGO$Alloy <- factor(data.dGO$Alloy, levels = c("Fe0.25Ni0.75", "Fe0.5Ni0.5", "Fe0.75Ni0.25"))
 data.dGO$Site <- factor(data.dGO$Site)
