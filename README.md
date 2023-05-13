@@ -1,6 +1,6 @@
 # Supporting Information: Input and output files in DFT calculations
 
-This repo stores some of the input and output files used in `mcsqs` and VASP calculations of oxygen reduction reaction (OER) for the manuscript (ID: smll.202203340).
+This repo stores some of the input and output files used in `mcsqs` and VASP calculations of oxygen reduction reaction (OER) for the (paper)[DOI:10.1002/smll.202203340].
 
 Codes used,
 
